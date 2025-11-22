@@ -1,0 +1,40 @@
+# System and Navigation 🗺️
+alias l='ls'
+alias ls='ls -lh --color=auto'
+alias ll='ls -lh'
+alias la='ls -lha'
+alias ..='cd ..'
+alias ...='cd ../../'
+alias grep='grep --color=auto'
+alias df='df -h'
+alias du='du -h'
+alias free='free -h'
+
+# Package Management 📦
+alias update='sudo apt dist-upgrade'
+alias upgrade='sudo apt upgrade -y'
+alias install='sudo apt install'
+alias dpinstall='sudo dpkg -i'
+alias remove='sudo apt remove'
+alias purge='sudo apt purge'
+alias autoremove='sudo apt autoremove -y'
+alias search='apt search'
+alias aptlist='apt list --installed'
+
+# Git 👩‍💻
+alias gs='git status -sb'
+alias ga='git add'
+alias gc='git commit -m'
+alias gp='git push'
+alias gl='git log --oneline --graph --decorate'
+alias gd='git diff'
+alias gb='git branch'
+
+# Custom and Utility Aliases 🛠️
+alias edit='vim'
+alias weather='curl wttr.in'
+alias ping='ping -c 5'
+alias c='clear'
+alias h='history'
+alias reboot='sudo shutdown -r now'
+alias poweroff='sudo shutdown -h now'
